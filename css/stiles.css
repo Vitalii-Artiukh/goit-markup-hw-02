@@ -1,9 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   background-color: #fff;
   font-size: 16px;
 }
+
 a {
   text-decoration: none;
 }
@@ -11,6 +15,17 @@ a {
 ul,
 ol {
   list-style-type: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 188px;
 }
 
 h2,
@@ -32,6 +47,34 @@ header .studio {
   color: #2e2f42;
 }
 
+.nav-ul,
+.nav-ul-Studio {
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.nav-ul-Studio:hover,
+.nav-ul:hover {
+  color: #404bbf;
+}
+
+.nav-ul-Studio:active {
+  color: #404bbf;
+}
+
+.addres-header {
+  font-style: normal;
+  color: #434455;
+}
+
+.addres-header:hover {
+  color: #404bbf;
+}
+
+.addres-header:active {
+  color: #404bbf;
+}
+
 footer {
   background: #2e2f42;
 }
@@ -42,4 +85,28 @@ footer .studio {
 
 footer .text {
   color: #f4f4fd;
+}
+
+.button-heder:hover {
+  background: #404bbf;
+}
+
+.button-heder {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  border-radius: 4px;
+  padding: 0;
+  width: 169px;
+  height: 56px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-bottom: 188px;
+  margin-top: 48px;
+}
+
+.main-header {
+  width: 1440px;
+  height: 600px;
+  background: #2e2f42;
 }
