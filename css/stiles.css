@@ -17,10 +17,13 @@ ol {
   list-style-type: none;
 }
 
+.main-header {
+  background: #2e2f42;
+}
+
 h1 {
   font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
+  line-height: 1.07;
   text-align: center;
   color: #fff;
   margin-bottom: 0;
@@ -30,20 +33,26 @@ h1 {
 h2 {
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
+
 h3 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -53,23 +62,16 @@ header .studio {
   color: #2e2f42;
 }
 
-.nav-ul,
-.nav-ul-Studio {
+.nav-ul {
   color: #2e2f42;
   font-weight: 500;
 }
 
-.nav-ul-Studio:hover,
 .nav-ul:hover {
   color: #404bbf;
 }
 
-.nav-ul-Studio:active {
-  color: #404bbf;
-}
-
 .addres-header {
-  font-style: normal;
   color: #434455;
 }
 
@@ -79,6 +81,14 @@ header .studio {
 
 .addres-header:active {
   color: #404bbf;
+}
+
+.section-three {
+  background-color: #f4f4fd;
+}
+
+.ul-three {
+  background-color: #ffffff;
 }
 
 footer {
@@ -94,12 +104,12 @@ footer .text {
 }
 
 .button-heder:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .button-heder {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   border-radius: 4px;
   padding: 0;
   width: 169px;
@@ -110,10 +120,4 @@ footer .text {
   margin-bottom: 188px;
   margin-top: 48px;
   cursor: pointer;
-}
-
-.main-header {
-  width: 1440px;
-  height: 600px;
-  background: #2e2f42;
 }
