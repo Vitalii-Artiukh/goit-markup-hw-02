@@ -21,7 +21,7 @@ ol {
   background: #2e2f42;
 }
 
-.h1-section {
+.h-one-section {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -29,7 +29,7 @@ ol {
   margin-bottom: 0;
   letter-spacing: 0.02em;
 }
-.h2-section {
+.h-two-section {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
@@ -38,7 +38,7 @@ ol {
   text-align: center;
 }
 
-.h3-section {
+.h-three-section {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -73,15 +73,22 @@ header .studio {
 
 .address-header {
   color: #434455;
+  font-style: normal;
 }
 
 .address-header:hover,
-.addres-header:focus {
+.address-header:focus,
+.address-header:active {
   color: #404bbf;
   font-style: normal;
 }
 
-.addres-header:active {
+.address {
+  color: #434455;
+}
+
+.address:hover,
+.address:focus {
   color: #404bbf;
 }
 
@@ -105,13 +112,8 @@ footer .text {
   color: #f4f4fd;
 }
 
-.button-heder:hover,
-.button-heder:focus {
-  background-color: #404bbf;
-}
-
-.button-heder {
-  background-color: ##4d5ae5;
+.main-header .button {
+  background-color: #4d5ae5;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -120,4 +122,9 @@ footer .text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.main-header .button:hover,
+.main-header .button:focus {
+  background-color: #404bbf;
 }
